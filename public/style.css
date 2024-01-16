@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #333333;
+}
+
+.container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 40px;
+}
+
+small {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  margin-bottom: 30px;
+}
+
+li {
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  margin-top: 20px;
+  list-style: none;
+  padding: 10px 30px;
+  width: 350px;
+}
+
+a {
+  float: right;
+  color: #f23728;
+  transition: transform 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+a:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+input {
+  border: 1px solid #333;
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  border-radius: 8px;
+  height: 40px;
+  width: 300px;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  outline: none;
+  border: 1px solid #333;
+  background-color: #23f589;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transition: transform 0.4s;
+  transition: 0.4s;
+}
+
+button:hover {
+  transform: scale(1.03);
+  background-color: #6bf5ae;
+  color: #fff;
+}
